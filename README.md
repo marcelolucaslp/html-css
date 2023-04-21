@@ -1,4 +1,4 @@
 # html-css
  Curso de HTML5 e CSS3
 
-Estou testando o Git e o Github
+<a href="https://marcelolucaslp.github.io/html-css/exercicios/ex001/index.html">Abrir exercício 1</a>
