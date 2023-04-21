@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(161, 208, 161);
+}
+h1#principal{
+    background-color: green;
+    color: blanchedalmond;
+}
+h1{
+    color: green;
+    text-align: center;
+}
+h2{
+    color: rgb(3, 82, 3);
+}
+p{color: rgb(236, 250, 43);}
+
+.básico{
+    color:rgb(38, 14, 175)
+}
+.avançado{
+    color:brown;
+}
+.destaque{
+    background-color: rgb(255, 179, 0);
+}

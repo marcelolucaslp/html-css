@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family:'ancient medium';
+    src: url('fontes/Ancient\ Medium.ttf') format('truetype');
+    
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    width: 1170px;
+    margin:auto;
+}
+header{
+    background-image: linear-gradient(to bottom, #3BD47F, #1A5C38);
+    color: white;
+    width:auto;
+    padding: 10px 5px 5px 10px;
+
+}
+section#topo{
+    text-align: center;
+}
+main{
+    background-color: white;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 0px;
+}
+.topico{
+    background-image: linear-gradient(to right, #84E1AD, #FFFFFF);
+    margin-right: 378px;
+}
+.titulo{
+    font-family:'ancient medium', serif;
+}
+section#mais>h2{
+    color:white;
+    background-color: #2FA866;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+footer{
+    background-color: white;
+    margin-top: 0px;
+    padding: 10px 10px 10px 10px;
+}
+section#mais{
+    background-color: #C5EBD6;
+    margin: 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
+picture{
+    display: flex;      
+    justify-content: center;
+}
+img{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+.alinhar{
+    display: inline-block;
+    margin-right: 50px;
+}
+p#fim{
+    background-color: #1A5C38;
+    color:#FFFFFF;
+    text-align: center;
+}
+.paragrafo{
+    text-indent: 10px;
+}
+div{
+    background-color: #1A5C38;
+    display: flex;      
+    justify-content: center;
+}
+ul>li::before{
+        content: "✔";
+}
+header>nav>a{
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+}
+header>nav>a:hover{
+    background-color: #2FA866;
+}

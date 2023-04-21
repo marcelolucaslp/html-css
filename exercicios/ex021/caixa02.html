@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=width-device,
+    initial-scale:1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: auto;
+            background-color: gray
+        }
+        header{
+            background-color: rgb(245, 27, 27);
+        }
+        nav{
+            background-color: lightgrey;
+            color:white;
+            padding: 15px 1px 15px 1px;
+            box-shadow: 2px 2px 1px black;
+            margin: 0px 5px 0px 5px;
+            
+        }
+        nav>a{
+            margin: 10px;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: green;
+        }
+        main{
+            background-color: white;
+            border-radius: 15px; 
+            box-shadow: 1px 1px 1px 1px; 
+        }
+        li{
+            display: inline;
+            margin: 15px;
+            background-color: blue;
+        }
+        section#Notícias{
+            background-color: lightgray;
+            padding: 10px;
+        }
+        aside{
+            background-color: rgb(93, 92, 92);
+            color: white;
+            text-align: center;
+            width: auto;
+        }
+        footer{
+            background-color: black;
+            color:white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">op1</a>
+            <a href="">op2</a>
+            <a href="">op3</a>
+            <a href="">op4</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            <ul>
+                <li>Treino</li>
+                <li>Dieta</li>
+                <li>Roupas</li>
+            </ul>
+        </section>
+        <section id="Notícias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat porro voluptates atque error magnam cumque quos esse veritatis ipsum molestias officiis cupiditate exercitationem, deleniti sed rerum debitis voluptatum vitae saepe!</p>
+                <aside>Escrito por mateusinho</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Patrocínio VoaSanto</p>
+    </footer>
+</body>
+</html>
