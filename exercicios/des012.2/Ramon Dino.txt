@@ -12,6 +12,6 @@ Diego competindo
 
 Ed Palmeira
 
-Edvan, popularmente conhecido como Ed Palmeira, nasceu em Juazeiro, cresceu no Distrito de Abóbora, e através do esporte ganhou o Brasil e o mundo. Hoje ele está na cidade de Carcavelos, Portugal, mas a competição acontece amanhã, dia 21, em Estoril e dia 27 irá competir na cidade de Padova, Itália .
+<p>Edvan, popularmente conhecido como Ed Palmeira, nasceu em Juazeiro, cresceu no Distrito de Abóbora, e através do esporte ganhou o Brasil e o mundo. Hoje ele está na cidade de Carcavelos, Portugal, mas a competição acontece amanhã, dia 21, em Estoril e dia 27 irá competir na cidade de Padova, Itália .</p>
 
 Físico do Edvan pre-contest
