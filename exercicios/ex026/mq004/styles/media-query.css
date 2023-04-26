@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/*Todas as demais mídias*/
+
+@media print{
+    main{border:2px solid black;}
+    main::after{content:"Texto escrito pelo site CursoemVideo.com"}
+
+    h1{
+        color:black;
+        text-shadow: none;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    img#phone{display:none;}
+    img#pc{display:none;}
+    img#tablet{display:none;}
+    img#print{display:block; margin:auto;}
+    img#tv{display:none;}
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    body{ /*tablet*/
+    background-image: url('../imagens/back-tablet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center center;
+    margin-top: 20px;
+    }
+    img#phone{display:none;}
+    img#pc{display:none;}
+    img#print{display:none;}
+    img#tablet{display:block; margin:auto;}
+    img#tv{display:none;}
+}
+@media screen and (min-width:769px) and (max-width: 1024px) { /*pc*/
+    body{
+    background-image: url('../imagens/back-pc.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center center;
+    margin-top: 20px;
+    }
+    img#phone{display:none;}
+    img#tablet{display:none;}
+    img#print{display:none;}
+    img#pc{display:block; margin:auto;}
+    img#tv{display:none;}
+}
+@media screen and (min-width:1201px){ /*TV*/
+    body{
+    background-image: url('../imagens/back-tv.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center center;
+    margin-top: 20px;
+    }
+    img#phone{display:none;}
+    img#tablet{display:none;}
+    img#print{display:none;}
+    img#tv{display:block; margin:auto;}
+    img#pc{display:none;}
+}
+
