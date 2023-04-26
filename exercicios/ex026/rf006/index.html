@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refazendo mq005</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media-queries.css">
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Meu Site</h1>
+        <span class="material-icons" id="burguer" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="3">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A molestias rerum beatae vitae, quos, omnis impedit quia voluptatibus iure consectetur iste? Non quos expedita rerum. Ex, cum? Amet, fugiat voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, aliquid consectetur consequuntur velit ipsum eum odio? Ipsam blanditiis, modi soluta minima repudiandae quia reprehenderit. Dignissimos perferendis omnis temporibus quidem eos?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, velit voluptatem aliquam qui accusamus enim hic excepturi est id dolor! Amet aut hic ea dolorem officiis accusantium, sunt tempora aliquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero tempore odio, maxime mollitia quibusdam facere ab aperiam vel aspernatur, aut placeat, quae et! Veritatis laudantium officiis similique, sapiente ducimus mollitia.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam itaque hic tempore? Ipsum fugit, sunt mollitia alias blanditiis perferendis quas eos? Eaque nostrum accusamus rerum ea ipsam repellat id neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit accusamus quibusdam eveniet quidem hic saepe nesciunt nemo dignissimos corrupti, tempora vero corporis perspiciatis ex, architecto odit, culpa doloribus adipisci libero?</p>
+        </article>
+    </main>
+    <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 769){
+                itens.style.display='block'
+            } else{
+                itens.style.display='none'
+            }
+        }
+
+        function clickMenu(){
+            if (itens.style.display=='block'){
+                itens.style.display='none'
+            } else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
