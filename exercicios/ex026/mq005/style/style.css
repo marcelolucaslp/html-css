@@ -28,7 +28,7 @@ span#burguer:hover{
 menu{
     background-color: gray;
     display: block;
-    text-align: center;
+    
 }
 menu a{
     display: block;
